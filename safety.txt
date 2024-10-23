@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Am Safe</title>
+</head>
+<body>
+    <h1>I Am Safe</h1>
+    <p>Thank you for your concern. I am safe after the storm.</p>
+    <button onclick="sendSafeMessage()">Notify Contacts</button>
+
+    <script>
+        function sendSafeMessage() {
+            alert("Your contacts have been notified that you are safe!");
+            // Dito mo ilalagay ang code para mag-integrate ng SMS API kung gusto mong mag-automate ng SMS
+        }
+    </script>
+</body>
+</html>
